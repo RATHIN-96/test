@@ -1,0 +1,43 @@
+  <!-- Toggle Button -->
+<div class="d-flex justify-content-end">
+  <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#can">
+    <i class="ri-menu-line"></i>
+  </button>
+</div>
+
+<!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" id="can">
+
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Welcome To <br>Anjilora Hills Official</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+
+  <p class="of p-4">Nestled within the picturesque landscapes of Kozhikode district,
+      Aanjilora Hills stands as a serene oasis that invites nature lovers and tranquility seekers alike. 
+      Renowned for its breathtaking vistas and soothing ambiance, this hidden gem captivates with its lush green hills and stunning views.
+       Accessible by vehicle with no entry fee, Aanjilora Hills presents a convenient escape from the hustle and bustle of daily life.
+       Ideal for early morning treks and evening strolls, this peaceful destination offers prime opportunities to witness mesmerizing sunrises and 
+       sunsets, particularly from July to December when the surrounding flora bursts with vibrant hues. The calm and tidy environment enhances its
+        charm, making it a perfect spot for recharging the spirit amid nature’s beauty. With a location just 15 kilometers from Kozhikode city
+     , Aanjilora Hills is a wonderful retreat for all ages, providing an inviting escape that soothes the soul and refreshes the mind.</p>
+
+  <div class="offcanvas-body">
+    <!-- Dropdown inside offcanvas -->
+    <div class="dropdown">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+        Click
+      </button>
+      <ul class="dropdown-menu">
+        <h6 class="dropdown-header">Welcome</h6>
+        <hr class="dropdown-divider">
+        <li><a class="dropdown-item" href="#">Home</a></li>
+        <li><a class="dropdown-item" href="#">About</a></li>
+        <li><a class="dropdown-item" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div> 
+
+    
